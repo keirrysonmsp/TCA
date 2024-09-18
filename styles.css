@@ -1,0 +1,115 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    background-image: url(inteligencia-artificial-lattine-group.jpg);
+}
+
+
+
+
+
+header {
+    
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+
+
+
+header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+
+
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+section {
+    padding: 2rem 1rem;
+    background-color: white;
+    margin: 1rem auto;
+    max-width: 1200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+section h2 {
+    margin-top: 0;
+    color: #343a40;
+}
+
+
+
+
+ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #073666;
+    color: white;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+/* Estilo padrão para dispositivos maiores */
+
+  
+  /* Estilo para dispositivos com largura de até 768px (tablets e celulares) */
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Estilo para dispositivos com largura de até 480px (celulares pequenos) */
+  @media (max-width: 480px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  
